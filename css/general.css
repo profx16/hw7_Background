@@ -1,0 +1,119 @@
+body,
+html {
+    font-family: Mulish, sans-serif;
+    background-color: #ffffff;
+    font-size: 10px;
+}
+
+section {
+    width: 1675px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/our-srv-bckgrnd.png"), url("../img/our-serv-drop-bckgrnd.png");
+    background-repeat: no-repeat;
+    background-position: right 238px top 727px, left 210px;
+}
+
+.container {
+    width: 1120px;
+    padding-bottom: 277px;
+    padding-top: 192px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 1.55;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+}
+
+.our-services-p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #7D7987;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #7D7987
+}
+
+.articles ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.articles li {
+    width: 350px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 23px;
+    color: #1F1534;
+    background-color:white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+  
+.content-card {
+    padding: 54px 37px 45px 46px;
+}
+
+img{
+    height: 90px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.3;
+    padding-top: 22px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 3.33;
+    color: #458FF6;
+    min-width: 200px;
+    border-width: 1.4px;
+    border-style: solid;
+    border-color: #458FF6;
+    border-radius: 55px;
+    margin-top: 69px;
+    padding: 3px 51px 1px;
+    background-color: #ffffff;
+}
